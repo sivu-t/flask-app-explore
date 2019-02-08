@@ -1,2 +1,7 @@
 gunicorn
-flask
+flask 
+flask-marshmallow 
+flask-sqlalchemy 
+marshmellow-alchemy 
+marshmellow-sqlalchemy 
+firebase-admin 
