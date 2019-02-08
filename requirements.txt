@@ -1,4 +1,2 @@
 gunicorn
 flask
-SQLAlchemy
-Marshmallow
