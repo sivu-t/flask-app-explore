@@ -9,7 +9,7 @@ verify_ssl = true
 flask = "*"
 flask-marshmallow = "*"
 flask-sqlalchemy = "*"
-marshmellow-alchemy = "*"
+
 marshmellow-sqlalchemy = "*"
 firebase-admin = "*"
 
