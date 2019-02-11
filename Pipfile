@@ -10,7 +10,7 @@ flask = "*"
 flask-marshmallow = "*"
 flask-sqlalchemy = "*"
 
-marshmellow-sqlalchemy = "*"
+marshmallow-sqlalchemy = "*"
 firebase-admin = "*"
 
 [requires]

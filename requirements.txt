@@ -3,5 +3,5 @@ flask
 flask-marshmallow 
 Flask-SQLAlchemy
 
-marshmellow-sqlalchemy 
+marshmallow-sqlalchemy 
 firebase-admin 
