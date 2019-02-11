@@ -1,7 +1,7 @@
 gunicorn
 flask 
 flask-marshmallow 
-flask-sqlalchemy 
+Flask-SQLAlchemy
 marshmellow-alchemy 
 marshmellow-sqlalchemy 
 firebase-admin 
