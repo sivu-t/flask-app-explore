@@ -1,5 +1,5 @@
 from flask import Flask
-from flas_sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy
 #Init app
 app = Flask(__name__)
 #so that flask doesn't swallow error messages
