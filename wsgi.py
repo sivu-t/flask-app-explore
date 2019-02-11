@@ -1,20 +1,18 @@
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
-import os
+
 
 # conn = sqlite.connect('student.db')
 # c = conn.cursor()
 # c.execute("""CREATE TABLE Students""")
-#Init api
-app = Flask(__name__)
-basedir = os.path.abspath(os.path.dirname(__file__))
-#Database
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'db.sqlite')
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+import os
 
-#Init db
-db =SQLAlchemy(app)
+virtenv = os.path.join(os.environ.get('OPENSHIFT_PYTHON_DIR', '.'), 'virtenv')
+
+
+from app import app as application
+
 #Init ma
 ma = Marshmallow(app)
 #student Class/Model
